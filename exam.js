@@ -3,10 +3,10 @@
  */
 var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, correct = 0;
 var questions = [
-    [ "What is 10 + 4?", "12", "14", "16", "B" ],
-    [ "What is 20 - 9?", "7", "13", "11", "C" ],
-    [ "What is 7 x 3?", "21", "24", "25", "A" ],
-    [ "What is 8 / 2?", "10", "2", "4", "C" ]
+    [ "What is 20 + 60?", "79", "80", "90", "B" ],
+    [ "What is 50 - 11?", "40", "36", "39", "C" ],
+    [ "What is 11 x 10?", "110", "120", "121", "A" ],
+    [ "What is 30 / 2?", "12", "14", "15", "C" ]
 ];
 function _(x){
     return document.getElementById(x);
